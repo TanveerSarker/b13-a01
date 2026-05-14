@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
+    font-family: "Inter Tight", sans-serif;
 }
 .navv {
     display: flex;
@@ -81,3 +82,60 @@
     color: #ffffff;
     margin-left: 5px;
 }
+.notes .card .img {
+    background-color: #da1111;
+    border-radius: 90%;
+  
+}
+.notes .note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    padding-top: 20px;
+}
+.notes .card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+}
+.notes .card {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(49, 4, 4, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 50px;
+}   
+.notes .card p {
+    font-size: 14px;
+    color: #000000;
+    padding-top: 10px;
+}
+.notes .card-container .card h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.notes .note h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+}
+.notes .note p {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+   
