@@ -137,5 +137,42 @@
     text-align: center;
     padding-top: 10px;
 }
+.know {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+    text-align: center;
 
-   
+}
+.know .text {
+    max-width: 400px;
+    text-align: left;
+    padding-top: 90px;
+}
+.know .text h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 14px ;
+    padding-top: 5px; 
+}
+.know .text p {
+    font-size: 16px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.know .text .line p {
+    display: flex;         
+    align-items: center;    
+    gap: 5px;             
+    margin-bottom: 2px;   
+    font-size:16px;
+    font-weight:500;
+}
+.know .text .p {
+    color: #24ce6b;
+}
+.know .text .txt {
+    color: #627382;
+}
