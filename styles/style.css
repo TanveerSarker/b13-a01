@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.navv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+}
+.navv .top {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+.navv .top a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+.btn {
+    padding: 10px 16px;
+    background-color: #469165;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.hero {
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    height: 600px;
+}
+.hero .early {
+    font-size: 18px;
+    color: #469165;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px 20px;
+}
+.hero .struct {
+    font-size: 48px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+.hero .not {
+    font-size: 48px;
+    font-weight: 600;
+    color: #4af117;
+    text-align: center;
+}
+.hero .para p {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    max-width: 600px;
+    padding-bottom: 10px;
+}
+.hero .bt {
+    padding: 7px 16px ;
+    border: #ffffff solid 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: transparent;
+    color: #ffffff;
+    margin-left: 5px;
+}
