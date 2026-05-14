@@ -53,7 +53,7 @@
     color: #469165;
     background-color: white;
     border-radius: 20px;
-    padding: 3px 20px;
+    padding: 14px;
 }
 .hero .struct {
     font-size: 48px;
@@ -87,7 +87,9 @@
 .notes .card .img {
     background-color: #da1111;
     border-radius: 90%;
-  
+  width: 60px;
+    height: 60px;
+    padding: 15px;
 }
 .notes .note {
     display: flex;
@@ -206,3 +208,34 @@
     padding-top: 16px;
     padding-bottom: 20px;
 }
+.footer {
+    background-color: #001931;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .foot {
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+    padding: 120px 120px 30px 120px;
+    background-color:#001931;
+}
+
+.footer .f {
+    color: #dddcdc;
+}
+.footer hr {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+    .footer .foot .wh a {
+        display: inline-block   ;
+        color: #FFFFFF;
+        padding-top: 10px;
+        gap: 20px;
+    }       
